@@ -1,0 +1,11 @@
+[package]
+name = "ts480-bin"
+version = "0.1.0"
+authors = ["Adam <adamsimeth@gmail.com>"]
+
+[[bin]]
+path = "src/main.rs"
+name = "ts480-tx"
+
+[dependencies]
+ts480 = { git = "https://github.com/sector-f/ts480-rs.git" }
